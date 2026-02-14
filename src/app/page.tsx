@@ -2,11 +2,16 @@
 // but server components can be asyncronous
 //
 
+import { cn } from "@/lib/utils";
+import { Button } from "@/components/ui/button";
 
 const Page = () => {
   return (
-    <div className="text-red-500 ">
-      Hello World
+    <div className="min-h-screen min-w-screen flex items-center justify-center">
+
+      <Button >
+        click me
+      </Button>
     </div>
   )
 }
